@@ -83,7 +83,7 @@ class App extends Component {
     let leftDiag =
       this.state.gameBoard[0] +
       this.state.gameBoard[4] +
-      this.state.gameBoard[7];
+      this.state.gameBoard[8];
     if (leftDiag.match(/xxx|ooo/)) {
       this.setState({ winner: this.state.turn });
       return;
